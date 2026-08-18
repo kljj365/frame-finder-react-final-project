@@ -29,4 +29,8 @@ The public repository and GitHub Pages deployment use the dedicated `frame-finde
 
 GitHub Pages is configured to deploy from the `gh-pages` branch at the repository root. The public URL is therefore expected to serve the compiled Frame Finder application once the Pages build finishes.
 
+## Public deployment verification
+
+The public GitHub Pages home route rendered the Frame Finder React interface with the live Batman movie list, the movie-title search control, release-window filter, sort options, and responsive navigation. The public detail route at `#/tt1877830` also rendered the live OMDb record for *The Batman*, including its poster, runtime, rating, plot, director, cast, release date, and awards.
+
 [^omdb]: [OMDb API, Usage and Parameters](https://www.omdbapi.com/)
