@@ -25,6 +25,8 @@ The release-window filter was also exercised in the browser. Choosing **Before 2
 
 ## Public deployment plan
 
-The public repository and GitHub Pages deployment will use the dedicated `frame-finder-react-final-project` repository and URL path. The previously submitted KJDM Growth Catalog remains a separate original business portfolio project and will not be reused as the course final-project submission.
+The public repository and GitHub Pages deployment use the dedicated `frame-finder-react-final-project` repository and URL path. Source code remains on `main`; the production Vite bundle is published separately on `gh-pages` so GitHub Pages serves the React application rather than the repository documentation. The previously submitted KJDM Growth Catalog remains a separate original business portfolio project and will not be reused as the course final-project submission.
+
+GitHub Pages is configured to deploy from the `gh-pages` branch at the repository root. The public URL is therefore expected to serve the compiled Frame Finder application once the Pages build finishes.
 
 [^omdb]: [OMDb API, Usage and Parameters](https://www.omdbapi.com/)
